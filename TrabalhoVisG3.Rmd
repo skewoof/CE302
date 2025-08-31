@@ -1,0 +1,20 @@
+---
+title: "Trabalho Visualização de dados Gráfico 3"
+author: "Thiago Roberto Alves"
+date: "2025-08-31"
+output: html_document
+---
+
+![](https://raw.githubusercontent.com/skewoof/CE302/refs/heads/main/5b694ab0-eefd-4c35-ad45-eedba910bba1.jpeg)
+
+### Origem do gráfico
+
+O gráfico apresentado foi veiculado pela **Times Now World**, em uma reportagem sobre a relação entre a Índia e a China, especificamente questionando se o governo indiano havia tomado medidas adequadas para responder à China. Ele apresenta os resultados de uma pesquisa de opinião, com as opções **YES** (39,8%) e **NO** (60,2%), e foi construído em formato de gráfico de pizza 3D. A intenção original era transmitir de forma visual a proporção das respostas da população sobre o tema, utilizando cores para destacar cada categoria.
+
+### Problemas identificados
+
+O gráfico apresenta **diversos problemas de visualização**. Primeiramente, o uso do **formato 3D** (Seção 3.1) distorce as proporções, dificultando a percepção correta dos valores. Além disso, o segmento correspondente a **39,8%** parece **maior** do que o de **60,2%**, invertendo a interpretação intuitiva dos dados. Outro problema é o uso de **elementos visuais excessivos** — sombreamento, perspectiva inclinada e bordas destacadas — que poluem a visualização e desviam a atenção dos números. A má escolha de cores também contribui para confundir o espectador, principalmente quando combinada com a distorção espacial.
+
+### Sugestão de reparo
+
+Para tornar o gráfico mais **efetivo e claro**, recomenda-se substituir o formato 3D por um **gráfico de barras** ou **pizza 2D** simples, apesar de ser um tanto controverso entre estatístico, um gráfico de região tem um bom uso aqui com uma diferença gritante. Além disso, é importante manter a proporção correta entre as categorias, utilizar **cores contrastantes** e evitar elementos decorativos que não agregam informação. Por exemplo, um gráfico de barras ordenado, com os valores numéricos claramente indicados sobre cada barra, destacaria que a maioria dos entrevistados respondeu **"NO" (60,2%)**, eliminando ambiguidades visuais e respeitando os princípios de clareza e precisão defendidos no texto.
