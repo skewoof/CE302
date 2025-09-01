@@ -1,3 +1,5 @@
 require(usethis)
-use_git_config(user.name="Thiago Roberto Alves",
+use_git_config(user.name="skewoof",
 user.email="thiagoroberto@ufpr.br")
+
+gitcreds::gitcreds_set()
